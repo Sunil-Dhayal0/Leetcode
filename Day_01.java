@@ -8,7 +8,6 @@ class Day_01{
            return 0; 
         }
         
-
     for(int i = 2;i <n;i++){
 
         boolean isPrime = true;
@@ -23,20 +22,15 @@ class Day_01{
         count++;
      }
 
-
-
     }
 
    return count;
 
     }
 
-
 public static void main(String[] args) {
     int n = Integer.parseInt(args[0]);
     System.out.println(countPrimes(n));
 }
-
-
 
 }
